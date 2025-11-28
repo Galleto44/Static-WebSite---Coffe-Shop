@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/x-icon" href="/assets/img/icon.ico">
+    <title>Kimmy's Coffeshop</title>
+</head>
+<body>
+    <header class="reveal opacity-0 translate-y-6 transition-all duration-700 relative w-full h-45 md:h-45 lg:h-96">
+    <img 
+        src="/assets/img/header.jpg" 
+        alt="header-images"
+        class="w-full h-full object-cover"
+    >
+    <div class="absolute inset-0 bg-black/50"></div>
+    <div class="absolute inset-0 flex items-center justify-center">
+        <h1 class="text-white text-3xl md:text-5xl font-bold text-center drop-shadow-lg">
+            Bienvenido a Kimmy's Coffeshop
+        </h1>
+    </div>
+    </header>
+    <section class="w-full py-12 px-6 md:px-16 bg-white">
+    <div class="max-w-3xl mx-auto text-center">
+        <h2 class="text-3xl font-bold text-purple-700 mb-4">
+            Sobre Nosotros
+        </h2>
+
+        <p class="text-gray-700 text-lg leading-relaxed">
+            En <span class="font-semibold text-purple-600">Kimmy's Coffeshop</span> creemos en la armonía entre 
+            sabor, ambiente y calidad. Ofrecemos bebidas artesanales, postres frescos y un espacio cálido 
+            diseñado para inspirar momentos únicos. Nuestro propósito es brindarte una experiencia acogedora 
+            desde la primera taza hasta la última conversación!.
+        </p>
+    </div>
+    </section>
+    <!-- HORARIO DE ATENCION -->
+    <section class="w-full py-12 px-6 md:px-16 bg-purple-50">
+    <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-6">
+        
+        <div>
+            <h2 class="text-3xl font-bold text-purple-700 mb-3">
+                Horario de Atención
+            </h2>
+
+            <p class="text-gray-700 text-lg leading-relaxed">
+                Estamos abiertos toda la semana para ofrecerte las mejores bebidas 
+                y postres artesanales. Te esperamos para que disfrutes un ambiente cálido 
+                y acogedor.
+            </p>
+
+            <ul class="mt-4 text-gray-700">
+                <li><span class="font-semibold">Lunes a Viernes:</span> 8:00 AM – 8:00 PM</li>
+                <li><span class="font-semibold">Sábados y Domingos:</span> 9:00 AM – 6:00 PM</li>
+            </ul>
+        </div>
+
+        <div class="flex flex-col items-center gap-6">
+
+            <div class="card-zoom reveal opacity-0 translate-y-6 transition-all duration-700 flex items-center gap-3 bg-white shadow-md p-4 rounded-xl">
+                <svg xmlns="http://www.w3.org/2000/svg" 
+                     class="h-10 w-10 text-purple-700" 
+                     fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                        d="M12 6v6l4 2m6-2a10 10 0 11-20 0 10 10 0 0120 0z" />
+                </svg>
+
+                <p class="text-gray-700 font-semibold">
+                    Horarios flexibles
+                </p>
+            </div>
+
+            <div class="card-zoom reveal opacity-0 translate-y-6 transition-all duration-700 flex items-center gap-3 bg-white shadow-md p-4 rounded-xl">
+                <svg xmlns="http://www.w3.org/2000/svg" 
+                     class="h-10 w-10 text-purple-700" 
+                     fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                        d="M8 7V3m8 4V3m-9 8h10m2 10H5a2 2 0 01-2-2V7a2
+                           2 0 012-2h14a2 2 0 012 2v14a2 2 0 01-2 2z" />
+                </svg>
+
+                <p class="text-gray-700 font-semibold">
+                    Abierto todos los días
+                </p>
+            </div>
+
+        </div>
+    </div>
+    </section>
+    <!-- UBICACION Y DIRECCION -->
+    <section class="card-zoom reveal opacity-0 translate-y-6 transition-all duration-700 w-full py-12 px-6 md:px-16 bg-gray-900">
+    <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-8">
+
+        <!-- Texto (izquierda) -->
+        <div>
+            <h2 class="text-3xl font-bold text-white mb-4">
+                Ubicación y Dirección
+            </h2>
+
+            <p class="text-gray-300 text-lg leading-relaxed">
+                Nos encontramos en una zona accesible y segura, ideal para relajarte, 
+                trabajar o disfrutar de un buen café en compañía. Te esperamos con un ambiente 
+                cálido y una atención excepcional.
+            </p>
+
+            <p class="mt-4 text-gray-200 text-lg">
+                <span class="font-semibold text-white">Dirección:</span>  
+                Calle Central 123, Barrio Aurora, Ciudad del Sol.
+            </p>
+
+            <p class="text-gray-200">
+                <span class="font-semibold text-white">Referencia:</span>  
+                Frente al Parque del Estudiante.
+            </p>
+        </div>
+
+        <!-- Imagen (derecha) -->
+        <div class="w-full">
+            <img 
+                src="/assets/img/direccion.jpg"
+                alt="Mapa o imagen del local"
+                class="w-full h-64 md:h-80 object-cover rounded-xl shadow-lg shadow-gray-800"
+            >
+        </div>
+
+    </div>
+    </section>
+    <!-- PRODUCTOS DE TEMPORADA -->
+    <section class="w-full py-16 px-6 md:px-16 bg-white">
+    <div class="max-w-5xl mx-auto text-center">
+
+        <h2 class="text-3xl font-bold text-purple-700 mb-4">
+            Productos de Temporada
+        </h2>
+
+        <p class="text-gray-700 text-lg max-w-3xl mx-auto leading-relaxed mb-10">
+            Durante todo el año preparamos bebidas y postres especiales inspirados en cada 
+            estación. Desde sabores cálidos para el invierno hasta opciones frescas para el verano, 
+            cada temporada trae algo único para disfrutar.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+            <!-- Card 1 -->
+            <div class="card-zoom reveal opacity-0 translate-y-6 transition-all duration-700 bg-gray-100 rounded-xl shadow-lg overflow-hidden">
+                <img 
+                    src="/assets/img/invierno.jpg" 
+                    alt="Producto invierno"
+                    class="w-full h-56 object-cover"
+                >
+                <div class="py-4 text-center">
+                    <h3 class="text-purple-700 font-semibold text-lg">Invierno</h3>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card-zoom reveal opacity-0 translate-y-6 transition-all duration-700 bg-gray-100 rounded-xl shadow-lg overflow-hidden">
+                <img 
+                    src="/assets/img/verano.jpg" 
+                    alt="Producto verano"
+                    class="w-full h-56 object-cover"
+                >
+                <div class="py-4 text-center">
+                    <h3 class="text-purple-700 font-semibold text-lg">Verano</h3>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card-zoom reveal opacity-0 translate-y-6 transition-all duration-700 bg-gray-100 rounded-xl shadow-lg overflow-hidden">
+                <img 
+                    src="/assets/img/otoño.jpg" 
+                    alt="Producto otoño"
+                    class="w-full h-56 object-cover"
+                >
+                <div class="py-4 text-center">
+                    <h3 class="text-purple-700 font-semibold text-lg">Otoño</h3>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="w-full bg-gray-900 text-gray-300 py-10 px-6 md:px-16">
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div>
+            <h3 class="text-white font-bold text-xl mb-3">Kimmy's Coffeshop</h3>
+            <p class="text-gray-400 leading-relaxed">
+                Un espacio cálido para disfrutar bebidas artesanales, postres frescos 
+                y momentos especiales durante todo el año.
+            </p>
+        </div>
+        <div>
+            <h4 class="text-white font-semibold text-lg mb-3">Enlaces</h4>
+            <ul class="space-y-2">
+                <li><a href="#" class="hover:text-purple-400">Inicio</a></li>
+                <li><a href="#" class="hover:text-purple-400">Temporadas</a></li>
+                <li><a href="#" class="hover:text-purple-400">Ubicación</a></li>
+                <li><a href="#" class="hover:text-purple-400">Contacto</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4 class="text-white font-semibold text-lg mb-3">Síguenos</h4>
+            <ul class="space-y-2">
+                <li><a href="#" class="hover:text-purple-400">Instagram</a></li>
+                <li><a href="#" class="hover:text-purple-400">Facebook</a></li>
+                <li><a href="#" class="hover:text-purple-400">TikTok</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="text-center text-gray-500 mt-10 text-sm">
+        © 2025 Café Aurora — Todos los derechos reservados.
+    </div>
+</footer>
+</body>
+<script src="/js/script.js"></script>
+</html>
